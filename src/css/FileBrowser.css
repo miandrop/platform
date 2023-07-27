@@ -1,0 +1,35 @@
+#listOfFiles {
+    min-height: 40%;
+    max-height: 60%;
+    width: 30%;
+    /* overflow: hidden; */
+    overflow-x: scroll;
+    border: 2px solid rgb(51, 48, 48);
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fileName {
+    min-width: 200px;
+    text-align: left;
+    padding-left: 10%;
+
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+}
+
+.openFileButton {
+    cursor: pointer;
+}
+
+.rowOfFiles{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
