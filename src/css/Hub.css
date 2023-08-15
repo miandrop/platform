@@ -13,8 +13,8 @@ footer {
     width: 100%;
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
     border-top: 1px solid #e5e5e5;
-    position: absolute;
-    bottom: 0;
+    /* position: absolute;
+    bottom: 0; */
     min-height: 60px;
     /* line */
     white-space: nowrap;
@@ -38,6 +38,16 @@ main{
     align-items: center;
     flex-direction: column;
     height: auto;
+}
+
+.mainSection{
+    /* height: 1500px; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    width: 90%;
 }
 
 #login #login-button {

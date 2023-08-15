@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Hub from './Hub';
+import Hub from './components/Hub';
 import './css/index.css';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
-  <React.StrictMode>
+  <React.Fragment>
     <Hub />
-  </React.StrictMode>
+  </React.Fragment>
 );

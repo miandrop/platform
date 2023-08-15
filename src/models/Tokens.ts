@@ -1,13 +1,13 @@
 export class Tokens {
     deepl: string;
+    speech: string;
     gitPublic: string;
     gitPrivate: string;
-    isLogin: boolean;
 
-    constructor(isLogin = false, deepl: string = "", gitPublic: string = "", gitPrivate: string = "") {
-        this.isLogin = isLogin;
+    constructor(deepl: string = "", gitPublic: string = "", gitPrivate: string = "", speech: string = "") {
         this.deepl = deepl;
         this.gitPublic = gitPublic;
         this.gitPrivate = gitPrivate;
+        this.speech = speech;
     }
 }

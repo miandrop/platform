@@ -1,4 +1,9 @@
-export interface File {
-    name: string
-    download_url: string;
+export class File {
+    path: string
+    content: string;
+
+    constructor(path: string, content: string) {
+        this.path = path;
+        this.content = content;
+    }
 }

@@ -1,9 +1,9 @@
 #listOfFiles {
     min-height: 40%;
     max-height: 60%;
-    width: 30%;
+    width: 25%;
     /* overflow: hidden; */
-    overflow-x: scroll;
+    overflow-y: scroll;
     border: 2px solid rgb(51, 48, 48);
     box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
     list-style-type: none;
